@@ -28,19 +28,19 @@ _XAML es un lenguaje de marcado declarativo que puede utilizarse para definir la
 
 ## <a name="xaml-basicsxaml-basicsindexmd"></a>[XAML Basics](xaml-basics/index.md) (Conceptos básicos de XAML)
 
-XAML permite a los desarrolladores definir las interfaces de usuario en aplicaciones de Xamarin.Forms mediante marcado en lugar del código. XAML nunca es necesario en un programa de Xamarin.Forms pero herramientas y, a menudo es más visualmente coherente y más concisa que el código equivalente. XAML es especialmente adecuado para su uso con la arquitectura de aplicaciones populares de Model-View-ViewModel (MVVM): XAML define la vista que está vinculada al código de modelo de vista a través de enlaces de datos basadas en XAML.
+XAML permite a los desarrolladores definir las interfaces de usuario en aplicaciones de Xamarin.Forms mediante marcado en lugar del código. XAML no es obligatorio para aplicaciones de Xamarin.Forms pero es aplicable, a menudo es visualmente más coherente y es más concisa que el código equivalente. XAML es especialmente adecuado para la popular arquitectura de aplicaciones Model-View-ViewModel (MVVM): XAML define la vista que está vinculada al código de la vista modelo (ViewModel)a través de data bindings basadas en XAML.
 
 ## <a name="xaml-compilationxamlcmd"></a>[Compilación de XAML](xamlc.md)
 
 XAML se puede compilar de forma opcional directamente en lenguaje intermedio (IL) con el compilador XAML (XAMLC). En este artículo se describe cómo usar XAMLC y sus ventajas.
 
-## <a name="xaml-previewerxaml-previewermd"></a>[Controlador de vista previa de XAML](xaml-previewer.md)
+## <a name="xaml-previewerxaml-previewermd"></a>[XAML previewer](xaml-previewer.md)
 
-El [controlador de vista previa de XAML](~/xamarin-forms/xaml/xaml-previewer.md) anunciadas en Xamarin evolucionar 2016 está disponible para las pruebas en el canal alfa.
+[XAML Previewer](~/xamarin-forms/xaml/xaml-previewer.md) fue anunciado en Xamarin Evolve 2016, ahora está disponible para pruebas en el canal alfa.
 
 ## <a name="xaml-namespacesnamespacesmd"></a>[Espacios de nombres XAML](namespaces.md)
 
-XAML usa el `xmlns` atributo XML para las declaraciones de espacio de nombres. Este artículo presenta la sintaxis de espacio de nombres XAML y muestra cómo declarar un espacio de nombres XAML para tener acceso a un tipo.
+XAML usa el atributo `xmlns` para las declaraciones de espacio de nombres. Este artículo presenta la sintaxis de espacio de nombres XAML y muestra cómo declarar un espacio de nombres XAML para tener acceso a un tipo.
 
 ## <a name="xaml-markup-extensionsmarkup-extensionsindexmd"></a>[Extensiones de marcado XAML](markup-extensions/index.md)
 
